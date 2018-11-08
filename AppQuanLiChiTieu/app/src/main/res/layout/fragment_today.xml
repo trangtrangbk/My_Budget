@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Thống Kê Theo Ngày"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:padding="10dp"
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+</FrameLayout>
